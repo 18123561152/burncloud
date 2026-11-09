@@ -13,6 +13,8 @@ mod preparation;
 mod reconciler;
 mod state;
 pub mod hardware_detection;
+#[cfg(test)]
+mod hardware_detection_smoke_test;
 
 pub use composition::NodeComposition;
 pub use context::NodeContext;
